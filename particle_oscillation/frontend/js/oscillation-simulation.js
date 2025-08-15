@@ -73,7 +73,7 @@ class ParticleOscillationApp {
         this.backend = backend;
         
         if (backend === 'python') {
-            this.apiUrl = 'http://localhost:8002/api';
+            this.apiUrl = 'https://tetra-universe.preview.emergentagent.com/api';
         } else if (backend === 'php') {
             this.apiUrl = 'http://localhost/particle_oscillation/backend_php/api.php';
         }
