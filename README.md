@@ -117,27 +117,29 @@ Berdasarkan paper penelitian:
 
 ## 🎮 Cara Penggunaan
 
-### 1. Membuat Tetrahedron Pairs
-- Klik tombol **"Create Pair"** untuk membuat pasangan matter-antimatter baru
-- Setiap pair terdiri dari tetrahedron matter (biru) dan antimatter (merah)
-- Pair akan muncul dengan indikator stabilitas dan koneksi entanglement
+### 1. Membuat Particles
+- Klik tombol **"Create Particle"** untuk membuat tetrahedron baru
+- Setiap particle memiliki 4 dimensi oscillation (w₁, w₂, w₃, w₄)
+- Particle akan muncul dengan visualization bars untuk setiap dimensi
 
 ### 2. Menjalankan Simulasi
-- Klik **"Start"** untuk memulai simulasi osilasi real-time
-- Amati perubahan energy state, frequency, dan phase
-- Monitor system stability dan total energy
+- Klik **"Start"** untuk memulai real-time oscillation simulation
+- Amati perubahan dimensional values dan stability factors
+- Monitor system metrics: Total Energy, Average Stability, FPS
 
 ### 3. Analisis Detail
-- Klik pada pair tetrahedron untuk melihat analysis panel
-- Lihat detail physics parameters:
-  - Energy state matter dan antimatter
-  - Oscillation frequency dan phase
-  - Pairing strength dan entanglement status
+- Klik pada particle untuk melihat detailed analysis panel
+- Lihat detail 4D state values:
+  - w₁ Projection (Blue) - Observable space projection
+  - w₂ Energy (Red) - Energy input oscillation
+  - w₃ Spin (Green) - Spin angular momentum  
+  - w₄ Mass (Purple) - Mass projection dynamics
 
 ### 4. Management System
-- **Delete**: Hapus pair individual dengan tombol (X)
-- **Reset**: Reset seluruh simulasi dan hapus semua pairs
-- **Monitor**: Pantau metrics sistem secara real-time
+- **Delete**: Hapus particle individual dengan tombol delete
+- **Reset**: Reset seluruh simulasi dan hapus semua particles
+- **Backend Switch**: Pilih antara Python atau PHP backend
+- **Real-time Config**: Adjust coupling strength dan environmental noise
 
 ## 🔌 API Documentation
 
