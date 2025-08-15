@@ -62,17 +62,17 @@ Berdasarkan paper penelitian:
 
 <div align="center">
 
-### Main Interface
-![Tetracore Server Interface](docs/screenshots/github_main_interface.png)
+### Main Interface - Particle Oscillation Simulation
+![Particle Oscillation Main Interface](docs/screenshots/particle_oscillation_main.png)
 
-### Tetrahedron Pairs Visualization  
-![Tetrahedron Pairs](docs/screenshots/github_multiple_pairs.png)
+### Single 4D Particle Visualization  
+![Single Particle](docs/screenshots/particle_oscillation_single.png)
 
-### Detailed Analysis Panel
-![Pair Analysis](docs/screenshots/github_pair_analysis.png)
+### Multiple Particles with 4D Dimensions
+![Multiple Particles](docs/screenshots/particle_oscillation_multiple.png)
 
-### Real-time Simulation
-![Simulation Running](docs/screenshots/github_simulation_running.png)
+### Detailed Particle Analysis Panel
+![Particle Analysis](docs/screenshots/particle_oscillation_analysis.png)
 
 </div>
 
