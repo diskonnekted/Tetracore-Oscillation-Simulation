@@ -6,7 +6,7 @@
 class ParticleOscillationApp {
     constructor() {
         this.backend = 'python'; // default backend
-        this.apiUrl = 'http://localhost:8002/api'; // Python FastAPI
+        this.apiUrl = 'http://localhost:8001/api'; // Python FastAPI
         
         this.isRunning = false;
         this.particles = new Map();
