@@ -1,26 +1,26 @@
-# Tetracore Server Simulation
+# Particle Oscillation Simulation
 
 <div align="center">
 
-![Tetracore Logo](https://img.shields.io/badge/Tetracore-Server-blue?style=for-the-badge&logo=atom)
+![Particle Oscillation Logo](https://img.shields.io/badge/Particle-Oscillation-blue?style=for-the-badge&logo=atom)
 
-**Counter-Tetrahedron Pairing System Simulation**
+**4D Tetrahedron Oscillation Dynamics Simulation**
 
 *Berdasarkan Teori Methane Metauniverse (MMU)*
 
 [![Python](https://img.shields.io/badge/Python-3.8+-green?style=flat-square&logo=python)](https://python.org)
-[![React](https://img.shields.io/badge/React-18+-blue?style=flat-square&logo=react)](https://reactjs.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Latest-orange?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green?style=flat-square&logo=mongodb)](https://mongodb.com)
+[![PHP](https://img.shields.io/badge/PHP-8.0+-blue?style=flat-square&logo=php)](https://php.net)
+[![Tailwind](https://img.shields.io/badge/Tailwind-CSS-cyan?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-[Demo Live](https://tetra-universe.preview.emergentagent.com) • [Dokumentasi](INSTALL.md) • [Paper MMU](https://osf.io/mk3xr/)
+[Demo Live](https://tetra-universe.preview.emergentagent.com) • [Dokumentasi](particle_oscillation/README.md) • [Paper MMU](https://osf.io/mk3xr/)
 
 </div>
 
 ## 🌌 Tentang Proyek
 
-**Tetracore Server Simulation** adalah implementasi interaktif dari teori **Methane Metauniverse (MMU)** yang dikembangkan oleh Jürgen Wollbold. Aplikasi ini mensimulasikan sistem stabilisasi **Counter-Tetrahedron Pairing** di mana realitas dimodelkan sebagai struktur geometris yang terdiri dari tetrahedron.
+**Particle Oscillation Simulation** adalah implementasi real-time dari **4D tetrahedron oscillation dynamics** berdasarkan teori **Methane Metauniverse (MMU)** yang dikembangkan oleh Jürgen Wollbold. Aplikasi ini mensimulasikan getaran tetrahedron dalam empat dimensi (w₁-w₄) dengan visualisasi interaktif.
 
 ### 🔬 Dasar Ilmiah
 
@@ -30,13 +30,12 @@ Berdasarkan paper penelitian:
 - **DOI**: [10.17605/OSF.IO/MK3XR](https://osf.io/mk3xr/)
 - **Tanggal**: August 2025
 
-### 🎯 Konsep Utama
+### 🎯 Konsep Utama - 4D Oscillation
 
-- **Geometric Reality**: Alam semesta sebagai lattice fraktal dari tetrahedra
-- **Four-Dimensional Nodes**: Setiap node menghubungkan 4 arah (w₁: projection, w₂: energy, w₃: spin, w₄: mass)
-- **Counter-Tetrahedron**: Setiap partikel memiliki pasangan cermin untuk stabilisasi
-- **Quantum Entanglement**: Koneksi fisik antara nodes yang dibuat bersamaan
-- **Time as Oscillation**: Waktu sebagai hasil proyeksi osilasi internal
+- **w₁ (Projection)**: Observable space projection - Visualisasi biru
+- **w₂ (Energy)**: Energy input oscillation - Visualisasi merah  
+- **w₃ (Spin)**: Spin angular momentum - Visualisasi hijau
+- **w₄ (Mass)**: Mass projection dynamics - Visualisasi ungu
 
 ## ✨ Fitur Utama
 
