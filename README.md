@@ -231,17 +231,17 @@ particle_oscillation/
 ## 🌟 Scientific Accuracy
 
 ### Methane Metauniverse Theory Implementation
-- ✅ **Tetrahedron Lattice**: Geometric structure sebagai basis reality
-- ✅ **Four-Dimensional Nodes**: w₁, w₂, w₃, w₄ parameters
-- ✅ **Matter-Antimatter Pairs**: Counter-tetrahedron stabilization  
-- ✅ **Quantum Entanglement**: Physical connections antara paired nodes
-- ✅ **Time Oscillation**: Internal vibrations sebagai projected time
+- ✅ **4D Oscillation Dynamics**: w₁, w₂, w₃, w₄ dimensional oscillations
+- ✅ **Inter-dimensional Coupling**: MMU theory-based coupling mechanisms  
+- ✅ **Real-time Physics**: Accurate frequency and phase relationships
+- ✅ **Stability Mechanics**: Dimensional balance calculations
+- ✅ **Energy Conservation**: Proper kinetic + potential energy modeling
 
 ### Physics Calculations
-- ✅ **Distance-based Stability**: Optimal distance calculations
-- ✅ **Energy Balance**: Matter-antimatter energy compensation
-- ✅ **Phase Synchronization**: Oscillation phase relationships
-- ✅ **System Metrics**: Overall stability dan energy tracking
+- ✅ **Dimensional Oscillations**: Independent w₁-w₄ frequency patterns
+- ✅ **Coupling Effects**: Cross-dimensional influence modeling
+- ✅ **Phase Coherence**: Oscillation consistency analysis
+- ✅ **System Metrics**: Real-time stability and energy tracking
 
 ## 🤝 Contributing
 
