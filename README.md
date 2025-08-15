@@ -143,25 +143,26 @@ Berdasarkan paper penelitian:
 
 ## 🔌 API Documentation
 
-### Simulation Control
+### Python Backend (FastAPI - Port 8001)
 ```http
-POST /api/simulation/start    # Start simulasi
-POST /api/simulation/stop     # Stop simulasi  
-POST /api/simulation/reset    # Reset simulasi
-GET  /api/simulation/state    # Get current state
+GET    /api/status                    # Server status
+GET    /api/simulation/state          # Full simulation state
+POST   /api/simulation/start          # Start oscillation simulation
+POST   /api/simulation/stop           # Stop simulation
+POST   /api/simulation/reset          # Reset all particles
+POST   /api/oscillators/create        # Create new particle
+GET    /api/oscillators               # List all particles
+DELETE /api/oscillators/{id}          # Remove particle
+WS     /api/ws                        # WebSocket real-time updates
 ```
 
-### Tetrahedron Pairs
+### PHP Backend (Port 8003)
 ```http
-GET    /api/pairs             # Get all pairs
-POST   /api/pairs/create      # Create new pair
-GET    /api/pairs/{id}        # Get specific pair
-DELETE /api/pairs/{id}        # Delete pair
-```
-
-### Real-time Updates
-```http
-WS /api/ws                    # WebSocket untuk updates real-time
+GET    /api.php/status                # Server status  
+GET    /api.php/simulation/state      # Full simulation state
+POST   /api.php/simulation/start      # Start simulation
+POST   /api.php/oscillators/create    # Create new particle
+DELETE /api.php/oscillators/{id}      # Remove particle
 ```
 
 ## 🧮 Physics Implementation
