@@ -18,7 +18,7 @@
 
 </div>
 
-## 🌌 Tentang Proyek
+## Tentang Proyek
 
 **Particle Oscillation Simulation** adalah implementasi real-time dari **4D tetrahedron oscillation dynamics** berdasarkan teori **Methane Metauniverse (MMU)** yang dikembangkan oleh Jürgen Wollbold. Aplikasi ini mensimulasikan getaran tetrahedron dalam empat dimensi (w₁-w₄) dengan visualisasi interaktif.
 
@@ -30,36 +30,36 @@ Berdasarkan paper penelitian:
 - **DOI**: [10.17605/OSF.IO/MK3XR](https://osf.io/mk3xr/)
 - **Tanggal**: August 2025
 
-### 🎯 Konsep Utama - 4D Oscillation
+### Konsep Utama - 4D Oscillation
 
 - **w₁ (Projection)**: Observable space projection - Visualisasi biru
 - **w₂ (Energy)**: Energy input oscillation - Visualisasi merah  
 - **w₃ (Spin)**: Spin angular momentum - Visualisasi hijau
 - **w₄ (Mass)**: Mass projection dynamics - Visualisasi ungu
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-### 🔧 4D Physics Engine
+### 4D Physics Engine
 - **Real-time Oscillation**: Simulasi getaran w₁, w₂, w₃, w₄ dimensions secara real-time
 - **Inter-dimensional Coupling**: Coupling antar dimensi berdasarkan teori MMU
 - **Stability Calculations**: Kalkulasi faktor stabilitas berdasarkan keseimbangan dimensional
 - **Phase Coherence**: Analisis konsistensi fase oscillation
 - **Performance Monitoring**: Tracking FPS, energy, dan stabilitas sistem
 
-### 🎨 Interactive Interface  
+### Interactive Interface  
 - **4D Visualization**: Visualisasi real-time state tetrahedron dengan bar dimensional
 - **Dual Backend Support**: Python (FastAPI) dan PHP backend support
 - **Responsive Dashboard**: Interface modern dengan Tailwind CSS
 - **Real-time Analytics**: Charts dan metrics untuk monitoring performa
 - **Professional UI**: Desain modern dengan color-coded dimensions
 
-### 🚀 Technical Stack
+### Technical Stack
 - **Backend**: Python (FastAPI) + PHP (Alternative)
 - **Frontend**: HTML5 + JavaScript + Tailwind CSS
 - **Visualization**: Chart.js untuk real-time charts
 - **Real-time**: WebSocket + HTTP polling fallback
 
-## 🖼️ Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -77,7 +77,7 @@ Berdasarkan paper penelitian:
 
 </div>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -113,7 +113,7 @@ Berdasarkan paper penelitian:
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8001
 
-📖 **Untuk instalasi lengkap, lihat [INSTALL.md](INSTALL.md)**
+**Untuk instalasi lengkap, lihat [INSTALL.md](INSTALL.md)**
 
 ## 🎮 Cara Penggunaan
 
@@ -141,7 +141,7 @@ Berdasarkan paper penelitian:
 - **Backend Switch**: Pilih antara Python atau PHP backend
 - **Real-time Config**: Adjust coupling strength dan environmental noise
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Python Backend (FastAPI - Port 8001)
 ```http
@@ -165,7 +165,7 @@ POST   /api.php/oscillators/create    # Create new particle
 DELETE /api.php/oscillators/{id}      # Remove particle
 ```
 
-## 🧮 Physics Implementation
+## Physics Implementation
 
 ### 4D Oscillation Equations
 ```python
@@ -211,7 +211,7 @@ def calculate_energy(state, coupling):
     return kinetic + potential
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 particle_oscillation/
@@ -228,22 +228,22 @@ particle_oscillation/
 └── README.md               # Documentation
 ```
 
-## 🌟 Scientific Accuracy
+## Scientific Accuracy
 
 ### Methane Metauniverse Theory Implementation
-- ✅ **4D Oscillation Dynamics**: w₁, w₂, w₃, w₄ dimensional oscillations
-- ✅ **Inter-dimensional Coupling**: MMU theory-based coupling mechanisms  
-- ✅ **Real-time Physics**: Accurate frequency and phase relationships
-- ✅ **Stability Mechanics**: Dimensional balance calculations
-- ✅ **Energy Conservation**: Proper kinetic + potential energy modeling
+- **4D Oscillation Dynamics**: w₁, w₂, w₃, w₄ dimensional oscillations
+- **Inter-dimensional Coupling**: MMU theory-based coupling mechanisms  
+- **Real-time Physics**: Accurate frequency and phase relationships
+- **Stability Mechanics**: Dimensional balance calculations
+- **Energy Conservation**: Proper kinetic + potential energy modeling
 
 ### Physics Calculations
-- ✅ **Dimensional Oscillations**: Independent w₁-w₄ frequency patterns
-- ✅ **Coupling Effects**: Cross-dimensional influence modeling
-- ✅ **Phase Coherence**: Oscillation consistency analysis
-- ✅ **System Metrics**: Real-time stability and energy tracking
+- **Dimensional Oscillations**: Independent w₁-w₄ frequency patterns
+- **Coupling Effects**: Cross-dimensional influence modeling
+- **Phase Coherence**: Oscillation consistency analysis
+- **System Metrics**: Real-time stability and energy tracking
 
-## 🤝 Contributing
+## Contributing
 
 Kami menyambut kontribusi untuk pengembangan simulasi ini:
 
@@ -253,7 +253,7 @@ Kami menyambut kontribusi untuk pengembangan simulasi ini:
 4. **Push** ke branch (`git push origin feature/amazing-feature`)
 5. **Open** Pull Request
 
-## 📚 References
+## References
 
 1. Wollbold, J. (2025). "The Methane Metauniverse (MMU) A Geometric Explanation of Antiparticles, Entanglement, and Time." OSF. DOI: 10.17605/OSF.IO/MK3XR
 
@@ -263,7 +263,7 @@ Kami menyambut kontribusi untuk pengembangan simulasi ini:
 
 4. [MongoDB Documentation](https://docs.mongodb.com/)
 
-## 📄 License
+## License
 
 Project ini dilisensikan di bawah MIT License.
 
@@ -271,7 +271,7 @@ Project ini dilisensikan di bawah MIT License.
 
 <div align="center">
 
-**🌌 Advancing Theoretical Physics Through Interactive Simulation 🌌**
+** Advancing Theoretical Physics Through Interactive Simulation 🌌**
 
 Made with ❤️ for the scientific community
 
