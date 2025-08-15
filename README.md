@@ -167,32 +167,48 @@ DELETE /api.php/oscillators/{id}      # Remove particle
 
 ## 🧮 Physics Implementation
 
-### Tetrahedron Geometry
+### 4D Oscillation Equations
 ```python
-# Regular tetrahedron vertices dalam unit form
-vertices_coords = [
-    (1, 1, 1), (1, -1, -1), (-1, 1, -1), (-1, -1, 1)
-]
+# Base oscillations per dimension
+w1 = amplitude_w1 * sin(2π * frequency * t + phase_w1)
+w2 = amplitude_w2 * sin(2π * frequency * 1.2 * t + phase_w2)  
+w3 = amplitude_w3 * sin(2π * frequency * 0.8 * t + phase_w3)
+w4 = amplitude_w4 * sin(2π * frequency * 1.1 * t + phase_w4)
+
+# Inter-dimensional coupling (MMU theory)
+w1_coupled = w1 + coupling * (w2 * 0.3 + w4 * 0.2)
+w2_coupled = w2 + coupling * (w3 * 0.4 + w1 * 0.1)
+w3_coupled = w3 + coupling * (w2 * 0.5) + 0.3 * sin(6π * frequency * t)
+w4_coupled = w4 + coupling * (w1 * 0.15)
 ```
 
 ### Stability Calculation
 ```python
-def calculate_pair_stability(pair):
-    distance_factor = 1.0 / (1.0 + abs(distance - optimal_distance))
-    energy_balance = 1.0 - abs(matter.energy + antimatter.energy) / 2.0
-    phase_sync = (1.0 + cos(matter.phase - antimatter.phase)) / 2.0
+def calculate_stability(state):
+    magnitude = sqrt(w1² + w2² + w3² + w4²)
     
-    return distance_factor * energy_balance * phase_sync
+    # Ideal balance: 0.25 for each dimension
+    w1_ratio = abs(w1) / magnitude
+    w2_ratio = abs(w2) / magnitude  
+    w3_ratio = abs(w3) / magnitude
+    w4_ratio = abs(w4) / magnitude
+    
+    balance = 1.0 - abs(0.25 - w1_ratio) - abs(0.25 - w2_ratio) - 
+              abs(0.25 - w3_ratio) - abs(0.25 - w4_ratio)
+    
+    return max(0, min(1, balance))
 ```
 
-### Oscillation Update
+### Energy Calculation
 ```python
-def update_oscillations(dt):
-    matter.phase += matter.oscillation_frequency * dt
-    matter.energy_state = 1.0 + 0.3 * sin(matter.phase)
+def calculate_energy(state, coupling):
+    # Kinetic energy (oscillation amplitudes)
+    kinetic = 0.5 * (w1² + w2² + w3² + w4²)
     
-    antimatter.phase += antimatter.oscillation_frequency * dt  
-    antimatter.energy_state = -(1.0 + 0.3 * sin(antimatter.phase))
+    # Potential energy (dimensional coupling)
+    potential = 0.25 * coupling * (w1*w2 + w2*w3 + w3*w4 + w4*w1)
+    
+    return kinetic + potential
 ```
 
 ## 🏗️ Architecture
