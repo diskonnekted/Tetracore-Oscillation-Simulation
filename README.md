@@ -39,23 +39,25 @@ Berdasarkan paper penelitian:
 
 ## ✨ Fitur Utama
 
-### 🔧 Physics Engine
-- **Tetrahedron Pair Management**: Sistem manajemen pasangan matter-antimatter
-- **Real-time Oscillations**: Simulasi getaran tetrahedron dengan frequency dan phase
-- **Stability Calculations**: Kalkulasi faktor stabilitas berdasarkan jarak, energi, dan sinkronisasi fase
-- **System Metrics**: Monitoring stabilitas sistem dan energi total
+### 🔧 4D Physics Engine
+- **Real-time Oscillation**: Simulasi getaran w₁, w₂, w₃, w₄ dimensions secara real-time
+- **Inter-dimensional Coupling**: Coupling antar dimensi berdasarkan teori MMU
+- **Stability Calculations**: Kalkulasi faktor stabilitas berdasarkan keseimbangan dimensional
+- **Phase Coherence**: Analisis konsistensi fase oscillation
+- **Performance Monitoring**: Tracking FPS, energy, dan stabilitas sistem
 
 ### 🎨 Interactive Interface  
-- **3D Visualization**: Visualisasi interaktif pasangan tetrahedron
-- **Real-time Dashboard**: Panel kontrol untuk simulasi dan monitoring
-- **Detailed Analysis**: Panel analisis detail untuk setiap pasangan
-- **Professional UI**: Desain modern dengan Tailwind CSS dan animasi
+- **4D Visualization**: Visualisasi real-time state tetrahedron dengan bar dimensional
+- **Dual Backend Support**: Python (FastAPI) dan PHP backend support
+- **Responsive Dashboard**: Interface modern dengan Tailwind CSS
+- **Real-time Analytics**: Charts dan metrics untuk monitoring performa
+- **Professional UI**: Desain modern dengan color-coded dimensions
 
 ### 🚀 Technical Stack
-- **Backend**: FastAPI (Python) dengan MongoDB
-- **Frontend**: React dengan shadcn/ui components
-- **Real-time**: WebSocket untuk update langsung
-- **Styling**: Tailwind CSS dengan custom animations
+- **Backend**: Python (FastAPI) + PHP (Alternative)
+- **Frontend**: HTML5 + JavaScript + Tailwind CSS
+- **Visualization**: Chart.js untuk real-time charts
+- **Real-time**: WebSocket + HTTP polling fallback
 
 ## 🖼️ Screenshots
 
