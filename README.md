@@ -214,21 +214,18 @@ def calculate_energy(state, coupling):
 ## 🏗️ Architecture
 
 ```
-tetracore-server/
-├── backend/                 # FastAPI server
-│   ├── server.py           # Main application
-│   ├── requirements.txt    # Python dependencies
-│   └── .env               # Environment variables
-├── frontend/               # React application  
-│   ├── src/
-│   │   ├── App.js         # Main component
-│   │   ├── App.css        # Styling
-│   │   └── components/    # UI components
-│   ├── package.json       # Node dependencies
-│   └── .env              # Environment variables
-├── docs/                  # Documentation
-├── INSTALL.md            # Installation guide
-└── README.md             # This file
+particle_oscillation/
+├── backend_python/          # FastAPI backend
+│   ├── oscillation_engine.py    # 4D physics engine
+│   ├── api_server.py            # FastAPI REST API
+│   └── requirements.txt         # Python dependencies
+├── backend_php/             # PHP backend (alternative)
+│   ├── oscillation_engine.php   # PHP physics engine
+│   └── api.php                  # PHP REST API
+├── frontend/                # Web interface
+│   ├── index.html              # Main HTML page
+│   └── js/oscillation-simulation.js  # JavaScript frontend
+└── README.md               # Documentation
 ```
 
 ## 🌟 Scientific Accuracy
